@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <link rel="icon" href="favicone.ico">
+  <link rel="icon" href="../img/favicon/icon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="../img/favicon/apple.png">
+  <link rel="manifest" href="manifest.webmanifest">
+  <title>HTML Academy: Девайс</title>
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <h1 class="visually-hidden">Каталог товаров</h1>
+  <main>
+    <div class="breadcrumbs">
+      <ul>
+        <li><a href="#">Главная</a></li>
+        <li><a href="#">Каталог товара</a></li>
+        <li><a href="#">Монопод для селфи</a></li>
+      </ul>
+    </div>
+    <aside class="filter">
+      <form action="#" method="GET">
+        <fieldset>
+          <legend>Стоимость</legend>
+          <div class="range-controls">
+            <div class="range-controls">
+              <div class="scale">
+                <div class="bar"></div>
+              </div>
+              <div class="toggle toggle-min" tabindex="0"></div>
+              <div class="toggle toggle-max" tabindex="0"></div>
+            </div>
+            <label class="min-price">
+              <input type="number" name="min-price" value="0">
+            </label>
+            <label class="max-price">
+              <input type="number" name="max-price" value="5000">
+            </label>
+          </div>
+        </fieldset>
+        <fieldset>
+          <legend>Цвет</legend>
+          <ul>
+            <li>
+              <input type="checkbox" name="color-black" id="black">
+              <label for="black">Черный</label>
+            </li>
+            <li>
+              <input type="checkbox" name="color-white" id="white">
+              <label for="white">Белый</label>
+            </li>
+            <li>
+              <input type="checkbox" name="color-blue" id="blue">
+              <label for="blue">Синий</label>
+            </li>
+            <li>
+              <input type="checkbox" name="color-red" id="red">
+              <label for="red">Красный</label>
+            </li>
+            <li>
+              <input type="checkbox" name="color-pink" id="pink">
+              <label for="pink">Розовый</label>
+            </li>
+          </ul>
+        </fieldset>
+        <fieldset>
+          <legend>Bluetooth</legend>
+          <ul>
+            <li>
+              <input type="radio" name="bluetooth-tehn" id="yes">
+              <label for="yes">Есть</label>
+            </li>
+            <li>
+              <input type="radio" name="bluetooth-tehn" id="no">
+              <label for="no">Нет</label>
+            </li>
+          </ul>
+        </fieldset>
+        <button class="button" type="submit">Показать</button>
+      </form>
+    </aside>
+    <section class="catalog">
+      <header>
+        <p>Сортировка</p>
+        <ul>
+          <li><a href="#">По цене</a></li>
+          <li><a href="#">По типу</a></li>
+          <li><a href="#">По популярности</a></li>
+        </ul>
+        <ul>
+          <li>
+
+          </li>
+        </ul>
+      </header>
+
+      <ul>
+        <li>
+          <img src="/img/item-1 1.jpg" alt="Металическая селфи-палка с черной рукояткой и телефоном" width="360px" height="380px">
+          <h3>Любительская селфи-палка</h3>
+          <span>1 100 руб.</span>
+          <div class="item-hover">
+            <a class="button" href="#">Показать</a>
+            <a class="" href="#">Добавить к сравнению</a>
+          </div>
+        </li>
+        <li>
+          <img src="/img/item-2 1.jpg" alt="Черная селфи-палка в собранном виде" width="360px" height="380px">
+          <h3>Профессиональная селфи-палка </h3>
+          <span>1 500 руб.</span>
+          <div class="item-hover">
+            <a class="button" href="#">Показать</a>
+            <a class="" href="#">Добавить к сравнению</a>
+          </div>
+        </li>
+        <li>
+          <img src="/img/item-3 1.jpg" alt="Желтая рукоятка и go-pro" width="360px" height="380px">
+          <h3>Непотопляемая селфи-палка</h3>
+          <span>1 500 руб.</span>
+          <div class="item-hover">
+            <a class="button" href="#">Показать</a>
+            <a class="" href="#">Добавить к сравнению</a>
+          </div>
+        </li>
+        <li>
+          <img src="/img/item-4 1.jpg" alt="рукоятка в виде проетеза руки" width="360px" height="380px">
+          <h3>Селфи-палка «Следуй за мной»</h3>
+          <span>1 900 руб.</span>
+          <div class="item-hover">
+            <a class="button" href="#">Показать</a>
+            <a class="" href="#">Добавить к сравнению</a>
+          </div>
+        </li>
+      </ul>
+    </section>
+    <div class="pagination-list">
+      <ul>
+        <li><a href="#">Назад</a></li>
+        <li><a href="#">1</a></li>
+        <li><a href="#">2</a></li>
+        <li><a href="#">3</a></li>
+        <li><a href="#">Вперед</a></li>
+
+      </ul>
+    </div>
+  </main>
+
+</body>
+
+</html>
